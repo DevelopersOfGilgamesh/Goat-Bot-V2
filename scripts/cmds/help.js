@@ -3,7 +3,7 @@ const axios = require("axios");
 const path = require("path");
 const { getPrefix } = global.utils;
 const { commands, aliases } = global.GoatBot;
-const doNotDelete = "[ Enkidu⛓️ ]"; // changing this wont change the goatbot V2 of list cmd it ijust a decoyy
+const doNotDelete = "[ Geo Archon𒆙 ]"; // changing this wont change the goatbot V2 of list cmd it ijust a decoyy
 
 module.exports = {
   config: {
@@ -34,7 +34,7 @@ module.exports = {
       const categories = {};
       let msg = "";
 
-      msg += `╔═══════════╗\n       Enkidu⛓️\n╚═══════════╝`; // replace with your name 
+      msg += `╔═══════════╗\n       Geo Archon𒆙\n╚═══════════╝`; // replace with your name 
 
       for (const [name, value] of commands) {
         if (value.config.role > 1 && role < value.config.role) continue;
@@ -50,7 +50,7 @@ module.exports = {
 
           const names = categories[category].commands.sort();
           for (let i = 0; i < names.length; i += 3) {
-            const cmds = names.slice(i, i + 3).map((item) => `⛓️${item}`);
+            const cmds = names.slice(i, i + 3).map((item) => `𒆙${item}`);
             msg += `\n│ ${cmds.join(" ".repeat(Math.max(1, 10 - cmds.join("").length)))}`;
           }
 
@@ -61,7 +61,7 @@ module.exports = {
       const totalCommands = commands.size;
       msg += `\nCurrently,the Enkidu bot has ${totalCommands} Commands that can be used\n`;
       msg += `Just type ${prefix} help cmdname to view the details of that Command\n`;
-      msg += `[ Enkidu ]`; // its not decoy so change it if you want 
+      msg += `[ Geo Archon𒆙 ]`; // its not decoy so change it if you want 
 
       await message.reply(msg);
     } else {
