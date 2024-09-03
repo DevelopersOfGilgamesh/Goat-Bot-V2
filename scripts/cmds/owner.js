@@ -21,9 +21,9 @@ config: {
       administrators: 'Jun jaam',
       gender: 'Male',
       age: 'over 5000 Years ago',
-      height: 'Null',
+      height: '176cm',
       facebookLink: 'https://www.facebook.com/profile.php?id=100073129302064',
-      nick: 'GilgameshV2'
+      nick: 'Geo Archon'
     };
 
     const bold = 'https://imgur.com/a/gzIcZjW.mp4'; // Replace with your Google Drive videoid link https://drive.google.com/uc?export=download&id=here put your video id
