@@ -16,17 +16,15 @@ config: {
   onStart: async function ({ api, event }) {
   try {
     const ownerInfo = {
-      name: 'Aljur Pogoy',
-      developer: 'Aljur Pogoy',
-      administrators: 'Jun jaam',
+      name: 'Aljur Pogoy & jun jaam',
       gender: 'Male',
-      age: 'over 5000 Years ago',
-      height: '176cm',
+      age: 'over 500000 Years ago',
+      height: 'Null',
       facebookLink: 'https://www.facebook.com/profile.php?id=100073129302064',
       nick: 'Geo Archon'
     };
 
-    const bold = 'https://imgur.com/a/gzIcZjW.mp4'; // Replace with your Google Drive videoid link https://drive.google.com/uc?export=download&id=here put your video id
+    const bold = 'https://imgur.com/a/X7Y5Nsv.mp4'; // Replace with your Google Drive videoid link https://drive.google.com/uc?export=download&id=here put your video id
 
     const tmpFolderPath = path.join(__dirname, 'tmp');
 
@@ -42,8 +40,6 @@ config: {
     const response = `
 Owner Information:🧾
 Name: ${ownerInfo.name}
-Developer: ${ownerInfo.nmae}
-Administrators: ${ownerInfo.administrators}
 Gender: ${ownerInfo.gender}
 Age: ${ownerInfo.age}
 Height: ${ownerInfo.height}
